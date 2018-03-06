@@ -1,0 +1,55 @@
+<resources>
+    <string name="answer">&lt;b>&lt;u>Answer:&lt;/u>&lt;/b> </string>
+    <string name="question1">1.What is the highest mount in the world?</string>
+    <string name="q11">Elbrus</string>
+    <string name="q12">Kilimanjaro</string>
+    <string name="q13">Everest</string>
+    <string name="q14">Fuji</string>
+    <string name="question2">2.How many continents are there in the world?</string>
+    <string name="q2answer" translatable="false">7</string>
+    <string name="question3">3.Which is the longest river in the world?</string>
+    <string name="q31">Amazon</string>
+    <string name="q32">Nile</string>
+    <string name="q33">Danube</string>
+    <string name="q34">Mississippi</string>
+    <string name="question4">4.Which is the largest country in the world?</string>
+    <string name="q41">India</string>
+    <string name="q42">China</string>
+    <string name="q43">Russia</string>
+    <string name="question5">5.Which is the largest desert in the world?</string>
+    <string name="q51">Gobi</string>
+    <string name="q52">Arabian</string>
+    <string name="q53">Sahara</string>
+    <string name="q54">Kalahari</string>
+    <string name="question6">6.Which is the largest continent?</string>
+    <string name="q61">Africa</string>
+    <string name="q62">Asia</string>
+    <string name="q63">North America</string>
+    <string name="q64">Europa</string>
+    <string name="question7">7.Which is the largest sea?</string>
+    <string name="q71">Bering</string>
+    <string name="q72">Philippine Sea</string>
+    <string name="q73">South China</string>
+    <string name="q74">Mediterranean</string>
+    <string name="question8">8.How many oceans are there in the world?</string>
+    <string name="q81">nine</string>
+    <string name="q82">seven</string>
+    <string name="q83">five</string>
+    <string name="question9">9.Which facts about planet Earth are true?</string>
+    <string name="q91">Gravity is not distributed equally.Places like Hudson Bay in Canada actually have less gravity than other regions of the globe. This is due to the fact that there is less land mass in that part of the planet thanks both to retreating glaciers on the surface and swirling magma deep in the core.</string>
+    <string name="q92">The longest mountain range on Earth is actually underwater. It stretches for 80,000 km all around the world and is nearly 20 times longer than the longest range on the surface, the Andes Mountains. Not only that, the whole thing is completely volcanic.</string>
+    <string name="q93">The deepest spot on Earth is the Challenger Deep in the Mariana Trench. It is nearly 11 km below the surface of the ocean (~7 miles) and only 3 people have ever ventured there</string>
+    <string name="q94">Constructed from millions of tiny polyps, coral reefs are the largest living structures on Earth, some even visible from space.</string>
+    <string name="q95">Everyday nearly 100 tons of interplanetary material falls down onto Earth’s surface primarily from the ice of comets as it vaporizes near the sun.</string>
+    <string name="q96">The largest single living thing (apart from reefs constructed of multiople polyps) was a mushroom fungus in Oregon that grew to 2,200 acres.</string>
+    <string name="q97">Earth’s magnetic north pole is moving northward at a rate of 10 miles per year</string>
+    <string name="of15teen"> of 15-teen</string>
+    <string name="allCorrect">All are correct</string>
+    <string name="type_here">Type here</string>
+    <string name="app_name">World</string>
+    <string name="submit_btn">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="desc">Picture of Earth globe</string>
+    <string name="yourScoreIs">Your score is: </string>
+
+</resources>

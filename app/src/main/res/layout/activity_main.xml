@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.world.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/earth2"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottomImage"
+            android:contentDescription="@string/desc"
+            android:scaleType="centerCrop"
+            android:src="@drawable/earth" />
+
+        <TextView
+            android:id="@+id/q1"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick1" />
+
+            <RadioButton
+                android:id="@+id/q12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick1" />
+
+            <RadioButton
+                android:id="@+id/q13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick1" />
+
+            <RadioButton
+                android:id="@+id/q14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick1" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q2"
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/q22"
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_here"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/q3"
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick3" />
+
+            <RadioButton
+                android:id="@+id/q32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick3" />
+
+            <RadioButton
+                android:id="@+id/q33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick3" />
+
+            <RadioButton
+                android:id="@+id/q34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick3" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q4"
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick4" />
+
+            <RadioButton
+                android:id="@+id/q42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick4" />
+
+            <RadioButton
+                android:id="@+id/q43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick4" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q5"
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/rg4"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick5" />
+
+            <RadioButton
+                android:id="@+id/q52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick5" />
+
+            <RadioButton
+                android:id="@+id/q53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick5" />
+
+            <RadioButton
+                android:id="@+id/q54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick5" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q6"
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/rg5"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick6" />
+
+            <RadioButton
+                android:id="@+id/q62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick6" />
+
+            <RadioButton
+                android:id="@+id/q63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick6" />
+
+            <RadioButton
+                android:id="@+id/q64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick6" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q7"
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/rg6"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick7" />
+
+            <RadioButton
+                android:id="@+id/q72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick7" />
+
+            <RadioButton
+                android:id="@+id/q73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick7" />
+
+            <RadioButton
+                android:id="@+id/q74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick7" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q8"
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/rg7"
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick8" />
+
+            <RadioButton
+                android:id="@+id/q82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick8" />
+
+            <RadioButton
+                android:id="@+id/q83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick8" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q9"
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/q91"
+            style="@style/CheckBox"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/q92"
+            style="@style/CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/q93"
+            style="@style/CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/q94"
+            style="@style/CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/q95"
+            style="@style/CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/q96"
+            style="@style/CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/q97"
+            style="@style/CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSubmit"
+            android:text="@string/submit_btn" />
+
+        <Button
+            style="@style/Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:onClick="onClearBtn"
+            android:text="@string/reset" />
+
+    </LinearLayout>
+
+</ScrollView>
